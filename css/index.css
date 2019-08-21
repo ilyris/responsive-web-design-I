@@ -311,3 +311,97 @@ footer {
 		bottom: 50px;
 	}
 }
+@media( max-width: 800px) {
+    body {
+        width: 100%;
+    }
+    #mainHeader {
+        padding: 25px;
+        position: relative;
+        background-color: #ffffff;
+        box-shadow: 0px 2px 5px 0px #9a9595;
+        top: 0;
+        z-index: 100;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+    #mainNavigation {
+        width: 100%;
+        display: flex;
+        justify-content: right;
+        flex-flow: column-reverse wrap;
+    }
+    .image-container {
+        width: 100%;
+        order: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    .navigationUl {
+        text-align: unset;
+        display: flex;
+        order: -1;
+        width: 100%;
+        justify-content: space-around;
+        box-sizing: border-box;
+    }
+    #cardOne {
+        height: 450px;
+        align-items: flex-start;
+    }
+    .cardOneContentWrapper.welcomeText {
+        min-width: 100%;
+    }
+    .cardOneContentWrapper a {
+        padding: 10px 60px;
+        margin: 20px auto 0 auto;
+    }
+    .cardOneContentWrapper.imageCardOneWrapper:nth-child(even) {
+        display: none;
+    }
+    .middle-img {
+        padding: 0;
+    }
+    section#cardTwo {
+        padding: 30px;
+
+    }
+    .copyright {
+        margin: 0;
+    }
+}
+@media( max-width: 500px) {
+    #mainHeader {
+        padding: 0;
+    }
+    ul.navigationUl {
+        flex-flow: row wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    li.navigationListItems {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        padding: 15px;
+        border-top: 1px solid #000;
+    }
+    li.navigationListItems:last-child {
+        border-bottom: 1px solid #000;
+    }
+    .image-container {
+        margin: 0;
+        padding: 20px;
+    }
+    .cardTwoContentWrapper {
+        flex-flow: row wrap;
+    }
+    .double-column {
+        width: 100%;
+    }
+    .tripple-column {
+        width: 100%;
+    }
+}
