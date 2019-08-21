@@ -265,57 +265,11 @@ footer {
 	padding: 7px 0;
 }
 
-@media (max-width: 740px) {
-	body {
-		width: 100%;
-	}
-	#mainNavigation {
-		flex-flow: row wrap;
-		justify-content: center;
-	}
-	.navigationUl {
-		order: 1;
-	}
-	.image-container {
-		order: 0;
-		padding-bottom: 15px;
-	}
-	.doubleServiceContentWrapper	 {
-		width: 100%;
-	}
-	#doubleServiceWrapper {
-		padding: 0 20px;
-	}
-	.middle-img {
-		padding: 0 20px;
-	}
-	.fullWidthColumn {
-		padding: 20px;
-	}
-	.fullWidthColumn p {
-		text-align: justify;
-	}
-	.fullWidthColumn.footerContentContainer {
-		width: 100%;
-	}
-	.footerImageContainer {
-		width: 100%;
-		max-height: 300px;
-		overflow: hidden;
-		padding: 20px;
-	}
-	.services-info-img {
-		width: 100%;
-		max-height: 100%;
-		position: relative;
-		bottom: 50px;
-	}
-}
 @media( max-width: 800px) {
     body {
         width: 100%;
     }
-    #mainHeader {
+    /* #mainHeader {
         padding: 25px;
         position: relative;
         background-color: #ffffff;
@@ -324,11 +278,8 @@ footer {
         z-index: 100;
         margin-bottom: 20px;
         width: 100%;
-    }
+    } */
     #mainNavigation {
-        width: 100%;
-        display: flex;
-        justify-content: right;
         flex-flow: column-reverse wrap;
     }
     .image-container {
@@ -340,12 +291,8 @@ footer {
         margin-bottom: 40px;
     }
     .navigationUl {
-        text-align: unset;
-        display: flex;
-        order: -1;
         width: 100%;
         justify-content: space-around;
-        box-sizing: border-box;
     }
     #cardOne {
         height: 450px;
